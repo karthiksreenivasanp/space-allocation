@@ -16,7 +16,3 @@ output/
 
 # OS files
 .DS_Store
-
-# Large data directories
-dataset/
-runs/
