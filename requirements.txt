@@ -1,0 +1,25 @@
+# ParkXplore - PE2 Project Dependencies
+
+# Core ML / Detection Framework
+ultralytics>=8.0.0
+
+# Computer Vision
+opencv-python>=4.8.0
+
+# Numerical Computing
+numpy>=1.24.0
+
+# Data Augmentation
+albumentations>=1.3.0
+
+# Progress Bar
+tqdm>=4.65.0
+
+# YAML parsing
+pyyaml>=6.0
+
+# PyTorch (required by ultralytics - install separately for GPU support)
+# For CPU-only: pip install torch torchvision
+# For CUDA: see https://pytorch.org/get-started/locally/
+torch>=2.0.0
+torchvision>=0.15.0
